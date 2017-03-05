@@ -5,7 +5,7 @@ The script is designed to add datafile to a selected tablespace for oracle datab
 E.g Of successful run of script:
 
 ```
-[oracle@dralmostright scripts]$ ./tablespaceadd.sh 
+[oracle@dralmostright scripts]$ ./adddatafileora11g.v1.0.1.sh 
 ##################################################################
 ## Author : Suman Adhikari                                      ##
 ## Date of Version : 24-02-2017                                 ##
@@ -49,7 +49,7 @@ ALTER TABLESPACE TS_SOMETHING ADD DATAFILE '/oradata/smart_dc/TS_SOMETHING003.db
 E.g of unsuccesful execution of script:
 
 ```
-[oracle@dralmostright scripts]$ ./tablespaceadd.sh 
+[oracle@dralmostright scripts]$ ./adddatafileora11g.v1.0.1.sh
 ##################################################################
 ## Author : Suman Adhikari                                      ##
 ## Date of Version : 24-02-2017                                 ##
