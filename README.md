@@ -43,12 +43,13 @@ ALTER TABLESPACE TS_SOMETHING ADD DATAFILE '/oradata/smart_dc/TS_SOMETHING003.db
 ***************************
 
 [oracle@dralmostright scripts]$ 
+
 ```
 
 E.g of unsuccesful execution of script:
 
 ```
-[oracle@ram-test scripts]$ ./tablespaceadd.sh 
+[oracle@dralmostright scripts]$ ./tablespaceadd.sh 
 ##################################################################
 ## Author : Suman Adhikari                                      ##
 ## Date of Version : 24-02-2017                                 ##
@@ -73,6 +74,7 @@ Enter the Name of Tablespace to extend : system
 Error during Running Scripts
 Error: Tablespace system name doesnot exists. Aborting.... 
 ########################################################
-[oracle@ram-test scripts]$ 
+[oracle@dralmostright scripts]$ 
+
 ```
 
